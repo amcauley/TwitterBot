@@ -78,7 +78,7 @@ def getText(textFilePath=TEXT_FILE_PATH):
 
     now = datetime.datetime.now()
     REPLACEMENTS = {
-        '<DATE>': now.strftime('%b %d %Y'),
+        '<DATE>': now.strftime('%b %d, %Y'),
         '<DAY>': now.strftime('%A'),
         '<YEAR>': now.strftime('%Y'),
     }
